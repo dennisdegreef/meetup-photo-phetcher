@@ -19,11 +19,7 @@ if(!file_exists($targetDirectory)) {
 
 $client = null;
 
-if(isset($config['key']) && !empty($config['key'])) {
-    $client = MeetupKeyAuthClient::factory($config);
-} else {
-    $client = MeetupOAuthClient::factory($config);
-}
+$client = MeetupKeyAuthClient::factory($config);
 
 $events = $client->getEvents(array(
     'member_id' => isset($config['member_id']) ? $config['member_id'] : 'self',
