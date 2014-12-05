@@ -7,6 +7,8 @@ It fetches all the photos from http://www.meetup.com of events where you RSVP'ed
 Getting started
 ===============
 
+- git clone ...
+- composer install
 - Copy config.dist.php to config.php
 - Edit with your own API key and target location
 - php phetch.php
@@ -16,7 +18,7 @@ Getting started
 Remarks
 =======
 -  Yes, it is ugly
--  Yes, it does what is should (works on my laptop
+-  Yes, it does what is should (works on my laptop)
 -  Yes, you can use it as you like (see LICENSE.md)
 -  Yes, Pull requests are welcome
 
