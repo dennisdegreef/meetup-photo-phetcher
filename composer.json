@@ -1,5 +1,5 @@
 {
     "require": {
-        "dms/meetup-api-bundle": "~1.0"
+        "dms/meetup-api-client": "~1.0"
     }
 }

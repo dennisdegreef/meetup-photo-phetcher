@@ -4,55 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8df4b7ae33b977018ce7ab5647002bd",
+    "hash": "a268d700e66c13f21fbbcfacd922cfd1",
     "packages": [
-        {
-            "name": "dms/meetup-api-bundle",
-            "version": "v1.0.0",
-            "target-dir": "DMS/Bundle/MeetupApiBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rdohms/dms-meetup-api-bundle.git",
-                "reference": "e34ee015e67488955eb36e6fe3cb87966ef12320"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rdohms/dms-meetup-api-bundle/zipball/e34ee015e67488955eb36e6fe3cb87966ef12320",
-                "reference": "e34ee015e67488955eb36e6fe3cb87966ef12320",
-                "shasum": ""
-            },
-            "require": {
-                "dms/meetup-api-client": "~1.0",
-                "php": ">=5.3.2"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "DMS\\Bundle\\MeetupApiBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rafael Dohms",
-                    "homepage": "http://doh.ms"
-                }
-            ],
-            "description": "DMS Meetup API Bundle, enables Meetup API clients in services",
-            "homepage": "https://github.com/rdohms/DMSMeetupApiBundle",
-            "keywords": [
-                "api",
-                "bundle",
-                "dms",
-                "meetup",
-                "meetup.com",
-                "symfony"
-            ],
-            "time": "2013-04-12 13:11:38"
-        },
         {
             "name": "dms/meetup-api-client",
             "version": "v1.2.0",
