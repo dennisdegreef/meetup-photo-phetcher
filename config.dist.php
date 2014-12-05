@@ -1,8 +1,6 @@
 <?php
 
 return array(
-    'consumer_key'    => 'consumer-key',
-    'consumer_secret' => '*****',
-    'token'           => '*****',
-    'token_secret'    => '*****',
+    'key' => 'YOUR-MEETUP-API-KEY',
+    'target_directory' => dirname(__FILE__) . '/data',
 );
