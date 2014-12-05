@@ -1,7 +1,8 @@
 Meetup photo phetcher
 =====================
 
-This repository contains a few (ugly) lines of PHP i quickly hacked togather to fetch all the photos from (Meetup.com)[http://www.meetup.com].
+This repository contains a few (ugly) lines of PHP i quickly hacked togather.
+It fetches all the photos from http://www.meetup.com of events where you RSVP'ed 'yes' to.
 
 Getting started
 ===============
